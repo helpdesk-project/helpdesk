@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creacion de Ticket</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+              rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+              crossorigin="anonymous">  
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-color navbar-expand-lg">
+            <a class="navbar-brand" href="www.google.com">
+                <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg"
+                        class="img-fluid" width="250" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+
+        <!--Creacion de Ticket-->
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <form>
+                     <!--Primer Dropdown-->            
+                  <div class="form-group text-center">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Area
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="boton1">
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 1">Opción 1</a>
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 2">Opción 2</a>
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 3">Opción 3</a>
+                      </div>
+                    </div>
+                  </div>  
+                   <!--Segundo Dropdown-->            
+                   <div class="form-group text-center">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Grado
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="boton1">
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 1">Opción 1</a>
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 2">Opción 2</a>
+                        <a class="dropdown-item" href="#" name="boton1" value="Opción 3">Opción 3</a>
+                      </div>
+                    </div>
+                  </div>  
+                  <div class="form-group text-center">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo">
+                  </div>
+                  <div class="form-group text-center">
+                    <input type="text" class="form-control" id="apellido" placeholder="Asunto">
+                  </div>
+                  <div class="form-group text-center">
+                    <input type="text" class="form-control" id="email" placeholder="Descripcion">
+                  </div>
+                  <!--Tercer Dropdown-->            
+                  <div class="form-group text-center">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Prioridad
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="prioridad-btn">
+                        <a class="dropdown-item option" href="#" value="Opción1">Opción 1</a>
+                        <a class="dropdown-item option" href="#" value="Opción2">Opción 2</a>
+                        <a class="dropdown-item option" href="#" value="Opción3">Opción 3</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        <!-- BOTONES-->
+        <div class="container-fluid" id="cajabotones">
+              <div class="col-md-3 d-flex">
+                <div class="d-grid gap-2">
+                  <button class="btn btn-success btn-sm" type="button"><b>Enviar</b></button>
+                  <button class="btn btn-primary btn-sm" type="button"><b>Mis Tickets</b></button>
+                  <button class="btn btn-danger btn-sm" type="button"><b>Cancelar</b></button>
+                </div>
+            </div>
+          </div>
+
+          <div class="card mx-auto" style="max-width: 18rem;">
+            <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title text-center"><b>Ticket Enviado</b></h5>
+                <div class="text-center">
+                    <img src="https://www.pngmart.com/files/16/Green-Check-Mark-Transparent-Background.png" width="100px" height="150px" class="card-img-top">
+                </div>
+                <a href="#" class="btn btn-success btn-block my-3"><b>Ver Ticket</b></a>
+            </div>
+        </div>
+
+    </body>
+
+    <!-- jQuery 3.5.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</html>

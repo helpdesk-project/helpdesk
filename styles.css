@@ -1,0 +1,138 @@
+/* Estos 5 Elementos aplica para cada una de las paginas */
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/002/399/293/non_2x/wave-decoration-soft-royal-glamour-luxury-elegant-white-background-for-cover-banner-concept-with-carve-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-fluid{
+    position: relative;
+    padding: 10px;
+}
+
+.navbar-color{
+    background-color: #C6832F;
+}
+
+.container {
+    background: #91979F;
+    max-width: 500px;
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+.form-group input{
+    text-align: center;
+    outline: none;
+    display: block;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #f5f5f5;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.form-group .btn {
+    background: #5d728d;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#boton{
+    outline: none;
+    display: block;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #f5f5f5;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#cajabotones{
+    color: #FFF;
+    width: 10%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
+    bottom: 200px;
+}
+
+.card{
+    background: #5d728d;
+    color: #FFF;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 80px;
+}
+
+.table-responsive{
+    background: #5d728dc2;
+    border: none;
+    width: 1000px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+    top: 25px;
+}
+
+.table{
+    color: #FFF;
+    font-family: Roboto;    
+    font-size: 16px;
+    font-weight: normal;
+}
+
+th.col-4, td.col-4,
+th.col-3, td.col-3,
+th.col-2, td.col-2,
+th.col-1, td.col-1
+{
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.btn-table{
+    border: none;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 10px;
+    color: white ;
+}
+
+
+
+
