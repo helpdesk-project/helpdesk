@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/menu.css">
+    <title>Login de usuario</title>
+</head>
+<!--Esta es la Navbar-->
+<nav class="navbar navbar-color navbar-expand-lg" style="background-color: #22cfff;">
+    <a class="navbar-brand" href="www.google.com">
+        <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg"
+                class="img-fluid" width="250" height="100">
+    </a>
+    <p  class="col-md-8" style="text-align: center; color: black; font-size: 35px; "> <b>MESA DE AYUDA</b> </p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <body style="background: url(https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?w=1380&t=st=1678860992~exp=1678861592~hmac=a911c73a9e2be25da3d62ecc3f9878bfd8d406164334f00ba33ab5986f683659);">
+    <div class="wrapper fadeInDown">
+     
+        <div id="formContent" style="color: black; margin: 100; padding: 100;">
+            
+            <!-- Tabs Titles -->
+        
+            <!-- Icon -->
+            <div  class="fadeIn first">
+            <img src="https://cdn-icons-png.flaticon.com/512/4961/4961759.png" id="icon" alt="User Icon" />
+            <h1 style="color: black; margin: 20; padding: 10;">Iniciar Sesión</h1>
+            </div>
+        
+            <!-- Login Form -->
+            <form id="frmLogin" method="POST" onsubmit="return loginUsuario()">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="usuario" required>
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="contraseña" required>
+                <input style="background-color: rgb(29, 139, 249);" type="submit" class="fadeIn fourth" value="Entrar">
+            </form>
+        
+            <!-- Remind Passowrd -->
+            <!-- <div id="formFooter">
+            <a class="underlineHover" href="#" data-toggle="modal" data-target="#modalContacto">Contactar con el administrador</a>
+            </div> -->
+        </div>
+       
+    </div>
+   
+        [Ñ:;*¨¡?_]
+    
+    
+<!-- <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        Si no tienes una credencial llama al : 5588996633
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+    </div>
+    </div>
+    
+</div>
+
+</div> -->
+
+    <script src="public/jquery/jquery-3.6.0.min.js"></script>
+    <script src="public/bootstrap/popper.min.js"></script>
+    <script src="public/bootstrap/bootstrap.min.js"></script>
+    <script src="public/sweetalert2/sweetalert2@11.js"></script>
+    <script src="public/js/usuarios/login.js"></script>
+</body>
+
+<footer style="background-color: white;"></footer>
+</html>

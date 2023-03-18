@@ -10,12 +10,13 @@
         <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body>
+    <body style="background: url(https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?w=1380&t=st=1678860992~exp=1678861592~hmac=a911c73a9e2be25da3d62ecc3f9878bfd8d406164334f00ba33ab5986f683659);">
         <nav class="navbar navbar-color navbar-expand-lg">
             <a class="navbar-brand" href="www.google.com">
                 <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg"
                         class="img-fluid" width="250" height="100">
             </a>
+            <p  class="col-md-7" style="text-align: center; color: black; font-size: 40px; font-family: Roboto;"> <b>MODULO DOCENTE</b> </p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,25 +25,13 @@
         <!--Creacion de Ticket-->
         <div class="container">
             <div class="row justify-content-center">
-              <div class="col-md-6">
-              <label class="text" style="position: relative; left:30px; font-family: Roboto; font-size: large;"><h3><b>Crear Tickets</b></h3></label><hr>
+              <label class="col-md-6" style=" color: black; position: center; left: 20px; font-family: Roboto; font-size: large;"><h3><b>Crear un Ticket</b></h3></label><hr>
+              <div class="col-md-12">
+              
                 <form>
-                     <!--Primer Dropdown-->            
-                  <!-- <div class="form-group text-center">
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Area
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="boton1">
-                        <a class="dropdown-item" href="#" name="boton1" value="Bilingüe">Bilingüe</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Colegio">Colegio</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="CFP">CFP</a>
-                      </div>
-                    </div>
-                  </div>   -->
                   <div>
                     <div class="col-md-12">
-                      <label for="area" class="form-label">Area</label>
+                      <label for="area" class="form-label"> <b>Area</b> </label>
                       <select class="form-select" id="area" required="">
                         <option value=""></option>
                         <option>Bilingüe</option>
@@ -54,47 +43,9 @@
                       </div>
                     </div>
                   </div>
-                   <!--Segundo Dropdown-->            
-                   <!-- <div class="form-group text-center">
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Grado
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="boton1">
-                        <a class="dropdown-item" href="#" name="boton1" value="Kinder">Kinder</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Prepa 1">Prepa 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Prepa 2">Prepa 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Primero 1">Primero 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Primero 2">Primero 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Segundo 1">Segundo 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Segundo 2">Segundo 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Tercero 1">Tercero 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Tercero 2">Tercero 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Cuarto 1">Cuarto 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Cuarto 2">Cuarto 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Quinto 1">Quinto 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Quinto 2">Quinto 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Sexto 1">Sexto 1</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Sexto 2">Sexto 2</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Septimo bl">Septimo bl</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Noveno bl">Noveno bl</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Octavo bl">Octavo bl</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Septimo a">Septimo a</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Septimo b">Septimo b</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Octavo a">Octavo a</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Octavo b">Octavo b</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Noveno">Noveno</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="I bachillerato a">I bachillerato a</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="I bachillerato b">I bachillerato b</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="II bachillerato a">II bachillerato a</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="II bachillerato b">II bachillerato b</a>
-                        <a class="dropdown-item" href="#" name="boton1" value="Informatica">Informatica</a>
-
-                      </div>
-                    </div>
-                  </div>   -->
+                   
                   <div class="col-md-12">
-                    <label for="grado" class="form-label">Grado</label>
+                    <label for="grado" class="form-label"><b>Grado</b></label>
                     <select class="form-select" id="area" required="">
                       <option value=""></option>
                       <option>Kinder</option>
@@ -131,34 +82,21 @@
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <label for="grado" class="form-label">Nombre</label>
+                    <label for="grado" class="form-label"><b>Nombre</b></label>
                     <input style="background-color: aliceblue;" type="text" class="form-control" id="nombre" placeholder="Nombre Completo">
                   </div>
                   <div class="col-md-12">
-                    <label for="grado" class="form-label">Asunto</label>
+                    <label for="grado" class="form-label"><b>Asunto</b></label>
                     <input style="background-color: aliceblue;" type="text" class="form-control" id="apellido" placeholder="Asunto">
                   </div>
                   <div  class="col-md-12">
-                    <label for="grado" class="form-label">Descripcion</label>
+                    <label for="grado" class="form-label"><b>Descripcion</b></label>
                     <input style="background-color: aliceblue;" type="text" class="form-control" id="email" placeholder="Descripcion">
                   </div>
-                  <!--Tercer Dropdown-->            
-                  <!-- <div class="form-group text-center">
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Prioridad
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="prioridad-btn">
-                        <a class="dropdown-item option" href="#" value="Alta">Alta</a>
-                        <a class="dropdown-item option" href="#" value="Media">Media</a>
-                        <a class="dropdown-item option" href="#" value="Baja">Baja</a>
-                        <a class="dropdown-item option" href="#" value="Urgente">Urgente</a>
-                      </div>
-                    </div>
-                  </div> -->
+                 
                   <div>
                     <div class="col-md-12">
-                      <label for="area" class="form-label">Prioridad</label>
+                      <label for="area" class="form-label"><b>Prioridad</b></label>
                       <select class="form-select" id="area" required="">
                         <option value=""></option>
                         <option>Alta</option>
@@ -176,28 +114,48 @@
             </div>
           </div>
           
-        <!-- BOTONES-->
-        <div class="container-fluid" id="cajabotones">
-              <div class="col-md-3 d-flex">
-                <div class="d-grid gap-2">
-                  <button class="btn btn-success btn-sm" type="button"><b>Enviar</b></button>
-                </div>
-            </div>
-          </div>
+      
 
-          <div class="card mx-auto" style="max-width: 18rem;">
-            <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title text-center"><b>Ticket Enviado</b></h5>
-                <div class="text-center">
-                    <img src="https://www.pngmart.com/files/16/Green-Check-Mark-Transparent-Background.png" width="100px" height="150px" class="card-img-top">
-                </div>
-                <a href="#" class="btn btn-success btn-block my-3"><b>Ver Ticket</b></a>
-            </div>
-        </div>
+      <!--Boton-->
+      
+<!--Fin de Boton-->
+<!--Ventana Modal-->
+  <input type="checkbox" id="btn-modal">
+  <div style="align-content: center;" class="container-modal">
+      <div style="align-content: center;" class="content-modal">    
+          <img src="https://moodle.ana-hn.org/moodle/pluginfile.php/1/theme_moove/logo/1650132999/Logo8x3Imprimir.jpg" class="card-img-top">
+          <div style="margin: 20; padding: 10;" class="card-body">
+              <h5 class="card-title text-center"><b>Ticket Enviado</b></h5>
+              <div class="text-center">
+                  <img src="https://www.pngmart.com/files/16/Green-Check-Mark-Transparent-Background.png"  class="card-img-top">
+              </div>
+              <a  href="#" class="btn btn-success btn-block my-12"><b>Ver Ticket</b></a>
+          </div>
+      </div>
+    
+      <label for="btn-modal" class="cerrar-modal"></label>
+  </div>
+<!--Fin de Ventana Modal-->
 
     </body>
-
+  
+    <div class="contenedorPadre">
+      <div class="contenedorHijo">
+    <div class="botones">
+      <div class="boton-modal ">
+        <label for="btn-modal">
+          Borrar
+       </label>
+        <label for="btn-modal">
+            Enviar
+        </label>
+        <label for="btn-modal">
+          Mis Tickets
+      </label>
+    </div>
+      </div>
+    </div>
+    </div>
     <!-- jQuery 3.5.1 -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
